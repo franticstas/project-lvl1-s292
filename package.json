@@ -1,6 +1,6 @@
 {
   "name": "webstas",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -23,7 +23,7 @@
     "cross-env": "^5.2.0"
   },
   "bin": {
-    "brain-games-webstas": "dist/bin/brain-games.js"
+    "brain-games": "dist/bin/brain-games.js"
   },
   "files": [
     "dist"
