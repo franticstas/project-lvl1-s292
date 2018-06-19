@@ -1,7 +1,7 @@
 {
   "name": "webstas",
-  "version": "1.0.2",
-  "description": "",
+  "version": "1.0.3",
+  "description": "my first npm project",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -13,7 +13,11 @@
    "type": "git",
    "url": "git+https://github.com/franticstas/project-lvl1-s292.git"
   },
-  "author": "",
+  "keywords": [
+    "hexlet",
+    "webstas"
+  ],
+  "author": "webstas",
   "license": "ISC",
   "devDependencies": {
     "babel-cli": "^6.26.0",
