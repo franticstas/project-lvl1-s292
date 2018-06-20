@@ -1,5 +1,4 @@
-rules:
-  no-console: 0
+---
   
  parser: babel-eslint
  
@@ -12,3 +11,6 @@ rules:
  env:
    node: true
    browser: true
+
+rules:
+  no-console: 0
