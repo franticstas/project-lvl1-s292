@@ -6,7 +6,7 @@
     - babel
  
  extends:
-   - 'airbnb-base'
+   - 'eslint-config-airbnb-base'
    
  env:
    node: true
