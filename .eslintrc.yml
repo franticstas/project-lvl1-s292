@@ -1,16 +1,15 @@
 ---
-  
- parser: babel-eslint
+  env:
+    browser: true
+    node: true
+
+  parser: babel-eslint
  
- plugins:
+  plugins:
     - babel
  
- extends:
-   - 'eslint-config-airbnb-base'
-   
- env:
-   node: true
-   browser: true
+  extends:
+    - 'eslint-config-airbnb-base'
 
-rules:
-  no-console: 0
+  rules:
+    no-console: 0
