@@ -7,7 +7,7 @@
     "babel-node": "babel-node",
     "build": "cross-env NODE_ENV=production babel src --out-dir dist --source-maps inline",
     "prepublishOnly": "npm run build",
-    "eslint": "eslint **/*.js"
+    "eslint": "eslint"
   },
   "repository": {
     "type": "git",
@@ -36,7 +36,8 @@
     "readline-sync": "^1.4.9"
   },
   "bin": {
-    "brain-games": "dist/bin/brain-games.js"
+    "brain-games": "dist/bin/brain-games.js",
+	"brain-even": "dist/bin/brain-even.js"
   },
   "files": [
     "dist"
